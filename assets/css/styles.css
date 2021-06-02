@@ -38,6 +38,10 @@ nav{
     font-size: .95rem;
     text-decoration: none;
 }
+.nav__menu a:hover{
+    color: #9e9d9d;
+    transition: all 0.2s ease-in-out;
+}
 .nav__buttons a img{
     width: 1.18rem;
     margin: 0 .25rem
@@ -51,6 +55,7 @@ nav{
 }
 .banner__text{
     font-size: 2rem;
+    font-weight: bold;
     left: 40%;
     position: absolute;
     top: 40%;
@@ -72,6 +77,9 @@ nav{
 }
 .filters__item--text span{
     font-size: .8rem;
+}
+.filters__item--text span:hover{
+    cursor: pointer;
 }
 
 .filters__item--checkbox label{
@@ -121,7 +129,13 @@ nav{
     display: flex;
     flex-direction: column;
     margin: 2rem 0rem;
+    padding-bottom: 1rem;
     width: 30%;
+    transition: all 0.3s ease-in-out;
+}
+.product__item:hover{
+    box-shadow: 1px 2px 5px 0.33px #a8a8a8;
+    transition: all 0.3s ease-in-out;
 }
 .product__item img{
     justify-content: center;
